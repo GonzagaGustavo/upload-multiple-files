@@ -13,11 +13,17 @@
   "devDependencies": {
     "@types/busboy": "^1.5.0",
     "@types/node": "^20.5.7",
+    "@types/tmp": "^0.2.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "busboy": "^1.6.0",
-    "socket.io": "^4.7.2"
+    "ffmpeg-progress-stream": "^1.2.1",
+    "ffprobe": "^1.1.2",
+    "ffprobe-static": "^3.1.0",
+    "socket.io": "^4.7.2",
+    "tmp": "^0.2.1"
   }
 }
